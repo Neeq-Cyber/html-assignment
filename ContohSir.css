@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LDS</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Lincoln Education System</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Welcome to Lincoln Education System</h2>
+            <p>We are a leading provider of education for students.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Give You Details Below & We Will Contact You Soon</p>
+        </section>
+
+        <section id="products">
+            <h2>Programmes</h2>
+            <ul>
+                <li><a href="#">Undergraduate</a></li>
+                <li><a href="#">Post-Graduate</a></li>
+                <li><a href="#">Pre-University</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Lincoln Education 2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>
